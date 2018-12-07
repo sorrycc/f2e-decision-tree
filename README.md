@@ -109,6 +109,9 @@
 		* ant-design
 		* material-ui
 		* ice
+	* 如何按需打包？
+		* tree-shaking
+		* babel-plugin-import
 * 数据通讯
 	* 选哪个请求库？
 		* whatwg-fetch
@@ -122,7 +125,7 @@
 		* npm
 		* yarn
 			* 要不要试着开启 Plug'n'Play？
-	* 访问慢怎么办？
+	* 下载慢怎么办？
 		* 自搭源服务
 		* cnpm
 	* 有私有包的需求？
@@ -184,3 +187,10 @@
 	* critical css
 	* rawact（DOM 直出）
 	* 更多待补充
+* 部署
+	* 怎么部署到非根目录？
+	* 静态文件需要部署到 cdn 时怎么处理？
+	* 如何设置运行时的 publicPath？
+	* 如何针对 css 配置额外的 publicPath？
+* 安全
+* 监控
