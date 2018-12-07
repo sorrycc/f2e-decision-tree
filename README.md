@@ -56,6 +56,12 @@
 			* tree-shaking 是啥？怎么开？
 			* svg as component
 			* 如何处理 HTML 文件？要不要用 html-webpack-plugin？
+			* 如何提速？让启动和构建更快？
+				* 基于路由或 entry 的按需编译
+				* hard-source-webpack-plugin，有用，但 bug 多
+				* externals
+				* dll
+				* noParse，uglifyjs 的 exclude 配置等
 			* 待补充，这里内容太多了。。
 		* rollup
 		* parcel
@@ -160,3 +166,21 @@
 		* tslint
 		* stylelint
 	* 目录组织
+* 性能优化
+	* 是否启用 pwa？怎么用？
+		* 手写 service-worker.js
+		* workbox
+		* 选择哪种缓存策略？
+	* ssr
+	* 基于路由的 code splitting
+		* css 该拆还是合？是否应该按需加载？
+	* 怎么提取公共部分？
+		* vendors 还是 common？
+		* minChunks 怎么配？
+		* 提一个还是多个？
+		* 项目里有几组不同的公共部分时怎么处理？
+		* dll 适合作为公共提取方案吗？
+	* prefetch
+	* critical css
+	* rawact（DOM 直出）
+	* 更多待补充
