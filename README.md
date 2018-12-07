@@ -5,8 +5,12 @@
 * 框架
 	* 三大框架里选哪个？
 		* react
+			* next.js
+			* after.js
+			* umi
 		* angular
 		* vue
+			* nuxt.js
 	* 考虑小程序？
 		* 用原生、vue、还是 react 语法？
 		* 是否要考虑代码共用？
@@ -92,18 +96,21 @@
 		* docz
 		* storyboard
 		* vuepress
-	* 打包支持 TODO
+	* 同时打包出 umd、es module、commonjs 等多种格式
+	* 用 rollup 还是 microbundle？
 * UI 库
 	* 选哪个？
 		* ant-design
+		* material-ui
 		* ice
 * 数据通讯
 	* 选哪个请求库？
 		* whatwg-fetch
 		* axios
-	* graphql
-	* websocket
 	* 如何 mock 数据？
+	* 如何代理 API 到后端？
+	* 要不要上 graphql？
+	* websocket
 * 包管理工具
 	* 包管理选哪个？
 		* npm
@@ -114,10 +121,42 @@
 		* cnpm
 	* 有私有包的需求？
 * 路由
+	* 路由选哪个库？
+		* react-router 3 | 4
+		* reach-router
+		* router5
+	* 路由是集中配置式？约定式？还是分布的组件式？
+	* 路由功能包含
+		* 动态路由
+		* 可选的动态路由
+		* 嵌套路由
+		* 基于路由的权限管理
+		* 路由切换动效
+		* 基于路由的面包屑
+		* 滚动条状态
+	* history 用 hash 还是 browser
+		* browser 时需额外考虑部署问题
 * 测试
 	* 测试框架选哪个？
 		* jest
 		* mocha + istanbul + chai | expect + sinon
-	* 
-
-
+	* ui 测试用哪套方案？
+		* enzyme + jsdom
+		* 官方的 react-test-rerender
+		* kentcdodds 的 test-testing-library
+	* e2e 测试
+		* puppeteer
+	* 测试录制回放
+	* 数据模拟和准备
+* 工程
+	* lint
+		* eslint
+			* 配置选哪套？
+				* eslint-config-react-app
+				* eslint-config-prettier
+				* eslint-config-airbnb
+				* 自建？
+			* 要不要用 prettier？和 eslint 规则的冲突怎么解决？
+		* tslint
+		* stylelint
+	* 目录组织
