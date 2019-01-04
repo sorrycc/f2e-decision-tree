@@ -18,6 +18,7 @@
   		* next.js
   		* after.js
   		* umi
+      * rogue.js
   	* angular
   	* vue
   		* nuxt.js
@@ -25,25 +26,34 @@
   	* 用原生、vue、还是 react 语法？
   	* 是否考虑代码共用？
   	* 小程序 -> vue|react 还是 vue|react -> 小程序？
+    * mpvue
 * 语言
   * 引入强类型语言？
   	* TypeScript
   	* Flow
+    * PropTypes
   * 支持的话，后面所有的流程都需要额外考虑，比如 test、构建、数据流、三方库支持等等
 * CSS
   * 预编译语言选哪个？
     * less
     * sass
     * stylus
+    * PostCSS
   * 如何避免命名冲突？
     * css modules
     	* 如何让部分文件不使用 css modules？
     * bem
+    * Atomic
+    * OOCSS
+    * SMACSS
+    * SUITCSS
   * 考虑 css-in-js？
     * styled components
     * emotion
     * radium
     * glamorous
+    * JSS
+    * Aphrodite
   * 主题、在线换肤？
 * 数据流
   * 数据流选哪个？
@@ -52,8 +62,18 @@
       	* redux-thunk
       	* redux-saga
       	* redux-observable
+        * redux better promise
       * 要不要用 dva 或 rematch？
-      * redux-persistent
+      * Data persistence
+        * redux-persistent
+        * redux phoenix
+      * Helpers
+        rematch reselect
+        * Form Helpers
+          * redux form
+          * formik
+          * formsy
+          * final form
     * mobx
       * 要不要上 mobx-state-tree?
     * rxjs
@@ -113,6 +133,13 @@
     * autoprefixer
     	* 如何保证给 babel 补丁方案的浏览器配置是同一份？
     * 是否启用高清方案？
+* task runners
+  * npm scripts
+    * npm-run-all
+    * script-runner
+    * redrun
+  * gulp
+  * grunt
 * 组件工具
   * 文档工具用哪个？
   	* docz
@@ -132,14 +159,20 @@
   * 选哪个请求库？
   	* whatwg-fetch
   	* axios
+    * superAgent
   * 如何 mock 数据？
   * 如何代理 API 到后端？
   * 要不要上 graphql？
+    * Apollo
+    * Relay
+    * urql
   * websocket
 * 包管理工具
   * 包管理选哪个？
   	* npm
+    * cnpm
   	* yarn
+    * pnpm
   		* 要不要试着开启 Plug'n'Play？
   * 下载慢怎么办？
   	* 自搭源服务
@@ -150,6 +183,8 @@
     * react-router 3 | 4
     * reach-router
     * router5
+    * redux-first router
+    * reach router
   * 路由采用集中配置式？约定式？还是分布的组件式？
   * 路由功能包含
     * 动态路由
@@ -166,6 +201,8 @@
   * 测试框架选哪套？
     * jest 全家桶
     * mocha + istanbul + chai + sinon
+    * ava
+    * tape
   * ui 测试用哪套方案？
     * enzyme + jsdom
     * 官方的 react-test-rerender
@@ -173,6 +210,11 @@
   * e2e 测试
     * puppeteer
     * cypress
+    * selenium
+    * cucumber
+    * nightwatch
+  * Integration Test
+    * karma
   * 测试录制回放
   * 数据模拟和准备
 * 工程
@@ -192,8 +234,31 @@
   - next.js
   - after.js
   - nuxt.js
+  - rogue.js
 * 静态站点
   * gatsby.js
+* 工具库
+  * lodash
+  * moment
+  * classnames
+  * numeral
+  * rxjs
+  * immutable
+    * immutable.js
+    * immutability-helper
+    * dot-prop-immutable
+    * immer
+  * ramda
+* i18n
+  * react intl
+  * react i18next
+* mobile
+  * react native
+  * cordova/phonegap
+* Desktop
+  * proton native
+  * electron
+  * react native windows
 * 性能优化
   * 是否启用 pwa？怎么用？
     * 手写 service-worker.js
