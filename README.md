@@ -2,6 +2,16 @@
 
 > 大致基于 react 社区。
 
+前端的发展真是太快了，子领域很多，然后每个领域的方案也是层出不穷，比如 css-in-js 方案大大小小有 10 几个，数据流方案有数十个。怎么选？
+
+我觉得选方案就是做决策。大到框架是用 react 还是 vue，小到压缩是用 uglifyjs 还是 terserjs，各种选择，眼花缭乱。当然，这里不会告诉你如何选，因为很多选择其实没有对错，但我觉得没有出现在这里的都暂时不需要考虑。
+
+以下是我结合之前的经验做的整理，主体是基于 React 社区。肯定有考虑不周，欢迎 PR 补充。
+
+---
+
+
+
 * 框架
   * 三大框架里选哪个？
   	* react
@@ -184,7 +194,7 @@
   - after.js
   - nuxt.js
 * 静态站点
-  * gastby.js
+  * gatsby.js
 * 性能优化
   * 是否启用 pwa？怎么用？
     * 手写 service-worker.js
@@ -208,5 +218,12 @@
   * 静态文件需要部署到 cdn 时怎么处理？
   * 如何设置运行时的 publicPath？
   * 如何针对 css 配置额外的 publicPath？
-* 安全
-* 监控
+
+
+
+---
+
+
+
+如果不想做选择，大家可以考虑封装好的框架，比如 [next.js](https://github.com/zeit/next.js)、[gatsby](https://github.com/gatsbyjs/gatsby) 或者 [umi](https://github.com/umijs/umi) 。
+
