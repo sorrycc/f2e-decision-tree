@@ -79,7 +79,6 @@
       	* noParse，uglifyjs 的 exclude 配置等
       * 待补充，这里内容太多了。。
     * rollup
-      * 产出 esm, cjs, umd 包
     * parcel
     * system-js
   * 压缩
@@ -119,8 +118,8 @@
   	* docz
   	* storyboard
   	* vuepress
-  * 同时打包出 umd、es module、commonjs 等多种格式
-  * 用 rollup 还是 microbundle？
+  * 同时打包出 cjs、esm、bundled esm、umd 等多种格式
+  * 用 rollup 还是封装过的 microbundle？
 * UI 库
   * 选哪个？
   	* ant-design
@@ -164,9 +163,9 @@
     * browser 时需额外考虑部署问题
     * query 处理选 qs 还是 query-string
 * 测试
-  * 测试框架选哪个？
-    * jest
-    * mocha + istanbul + chai | expect + sinon
+  * 测试框架选哪套？
+    * jest 全家桶
+    * mocha + istanbul + chai + sinon
   * ui 测试用哪套方案？
     * enzyme + jsdom
     * 官方的 react-test-rerender
