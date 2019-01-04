@@ -1,6 +1,6 @@
 # 前端决策树
 
-> 作为 2019.1.5 [seeconf](https://seeconf.antfin.com/) 演讲的一部分。
+> 作为 2019.1.5 [SEE Conf](https://seeconf.antfin.com/) 演讲的一部分。
 
 前端的发展真是太快了，子领域很多，然后每个领域的方案也是层出不穷，比如 css-in-js 方案大大小小有 10 几个，数据流方案有数十个。怎么选？
 
