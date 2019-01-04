@@ -1,6 +1,6 @@
 # 前端决策树
 
-> 大致基于 react 社区。
+> 作为 2019.1.5 seeconf 演讲的一部分。
 
 前端的发展真是太快了，子领域很多，然后每个领域的方案也是层出不穷，比如 css-in-js 方案大大小小有 10 几个，数据流方案有数十个。怎么选？
 
@@ -226,4 +226,3 @@
 
 
 如果不想做选择，大家可以考虑封装好的框架，比如 [next.js](https://github.com/zeit/next.js)、[gatsby](https://github.com/gatsbyjs/gatsby) 或者 [umi](https://github.com/umijs/umi) 。
-
