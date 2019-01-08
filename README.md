@@ -224,4 +224,4 @@
 
 
 
-如果不想做选择，大家可以考虑封装好的框架，比如 [next.js](https://github.com/zeit/next.js)、[gatsby](https://github.com/gatsbyjs/gatsby) 或者 [umi](https://github.com/umijs/umi) 。
+如果不想做选择，大家可以考虑封装好的框架，比如 [umi](https://github.com/umijs/umi) 、[next.js](https://github.com/zeit/next.js) 或者 [gatsby](https://github.com/gatsbyjs/gatsby)。
